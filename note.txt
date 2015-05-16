@@ -1,3 +1,8 @@
 第一步git add 就是把文件要提交的所有修改添加到暂存区
 第二部git commit 就是把暂存区的所有内容提交到当前分支。
 git管理的是修改，而非文件。添加删除更改文字 甚至新建一个文件 都是修改
+
+撤销修改
+    修改了没有add的情况下  git checkout -- filename
+	修改并add但是没有commit  git reset HEAD filename :可以把暂存区的修改撤销掉，
+重新放回工作区
