@@ -9,3 +9,5 @@ done!
 
 on dev, develop new function...
 # -*- coding: utf-8 -*-
+#usr/bin/dev python
+
